@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Finance Ledger</title>
     <!--favicon-->
     <link
       rel="apple-touch-icon"
@@ -31,53 +31,80 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+
+    <!-- font famaly -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">
-          <img src="./images/logo/logo.svg" alt="sitelogo" />
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo link" href="./index.html">
+          <img
+            class="header-logo-img"
+            src="./images/logo/logo.svg"
+            alt="sitelogo"
+          />
           Finance Ledger
         </a>
-        <ul>
-          <li><a href=""></a>Home</li>
-          <li><a href=""></a>About</li>
-          <li><a href=""></a>Cases</li>
-          <li><a href=""></a>Blog</li>
-          <li><a href=""></a>Contact</li>
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Home</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">About</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Cases</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Blog</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
     </header>
     <!--Main-->
     <main>
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">Read More</button>
+      <section class="hero">
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-title">We provide world class financial assistance</p>
+        <button class="hero-btn" type="button">Read More</button>
       </section>
 
       <!-- about -->
-      <section>
-        <h2 hidden>About</h2>
-        <ul>
-          <li>
-            <h3>Investmant Banking</h3>
-            <p>
+      <section class="about">
+        <h2 class="about-title" hidden>About</h2>
+        <ul class="about-list list">
+          <li class="about-item">
+            <h3 class="about-subtitle">Investmant Banking</h3>
+            <p class="about-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consequatur, necessitatibus!
             </p>
           </li>
-          <li>
-            <h3>Portfolio Manager</h3>
-            <p>
+
+          <li class="about-item">
+            <h3 class="about-subtitle">Portfolio Manager</h3>
+            <p class="about-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consequatur, necessitatibus!
             </p>
           </li>
-          <li>
-            <h3>Tax & Custudio</h3>
-            <p>
+
+          <li class="about-item">
+            <h3 class="about-subtitle">Tax & Custudio</h3>
+            <p class="about-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consequatur, necessitatibus!
             </p>
@@ -95,14 +122,14 @@
         />
 
         <p>What you are looking for</p>
-        <h2>What you are looking for</h2>
+        <h2>We provide bespoke solutions</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
           ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
           illum dolore explicabo ab dolores itaque rerum temporibus doloribus
           iste maiores deleniti?
         </p>
-        <a href="">Read More</a>
+        <a class="link" href="">Read More</a>
       </section>
     </main>
   </body>
