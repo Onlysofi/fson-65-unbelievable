@@ -1,0 +1,39 @@
+:root {
+  --accent-color: #28a745;
+  --primary-text-color: #333333;
+  --secondary-text-color: #ffffff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
+}
+
+/* util */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* .hero {
+  background-color: #2f303a;
+} */
+
+/* about */
+.about-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.about-text {
+  line-height: 1.56;
+  text-align: center;
+}
