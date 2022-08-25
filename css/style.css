@@ -66,6 +66,20 @@ address {
   padding: 0 28px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* header */
 .header {
   background-color: #2f303a;
@@ -113,13 +127,11 @@ address {
   padding-bottom: 20px;
 }
 
-
 /* hero */
 .hero {
   background-color: #2f303a;
   padding-top: 259px;
   padding-bottom: 284px;
-
 }
 
 .hero-title {
@@ -128,7 +140,7 @@ address {
   line-height: 1.2;
 
   text-align: center;
-  color: #E9E9E9;
+  color: #e9e9e9;
   margin-bottom: 45px;
 }
 
@@ -136,7 +148,7 @@ address {
   font-size: 22px;
   line-height: 1.67;
   text-align: center;
-  color: #E9E9E9;
+  color: #e9e9e9;
   margin-bottom: 29px;
 }
 
@@ -155,14 +167,37 @@ address {
   height: 48px;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  color: aqua;
+}
+
+.hero-btn-icon {
+  margin-right: 5px;
+  fill: currentColor;
+}
+
 .hero-btn-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 /* about */
+.about {
+  padding: 122px 0 19px 0;
+}
+
+.about .container {
+  padding: 0 66px;
+}
+
+.about-list {
+  display: flex;
+  align-items: center;
+  gap: 71px;
+}
+
 .about-subtitle {
   font-weight: 400;
   font-size: 20px;
@@ -173,4 +208,56 @@ address {
 .about-text {
   line-height: 1.56;
   text-align: center;
+}
+
+/* solution */
+.solution .container {
+  display: flex;
+  padding: 0;
+}
+
+.solution-contant-wrapper {
+  background-color: var(--accent-color);
+  padding: 84px 44px 84px 30px;
+}
+
+.solution-subtitle {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+}
+
+.solution-title {
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--secondary-text-color);
+}
+
+.solution-text {
+  margin-bottom: 17px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+.solution-btn {
+  background-color: transparent;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 5px;
+
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+  min-width: 167px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solution-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
