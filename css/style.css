@@ -61,10 +61,57 @@ address {
 }
 
 /* header */
-
-/* .hero {
+.header{
   background-color: #2f303a;
-} */
+}
+
+.header .container{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo{
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+}
+
+.header-nav-list{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 38px;
+}
+
+.header-logo-img{
+  margin-right: 10px;
+}
+
+.accent{
+  color: var(--accent-color);
+  margin-right: 12px;
+}
+
+.header-nav-link{
+  display: block;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.hero {
+  background-color: #2f303a;
+}
 
 /* about */
 .about-subtitle {
