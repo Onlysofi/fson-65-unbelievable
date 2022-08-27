@@ -261,3 +261,40 @@ address {
   align-items: center;
   justify-content: start;
 }
+
+/* Business Cases */
+
+.buscase .container {
+  padding: 50px 28px 47px 28px;
+}
+
+.busecase-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.buscase-uppertitle {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--primary-text-color);
+  margin: 0 auto 15px;
+}
+.buscase-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--primary-text-color);
+  margin: 0 auto 34px;
+}
+.buscase-subtitle {
+  line-height: 1.56;
+  color: var(--primary-text-color);
+  margin: 0 auto 39px;
+}
+
+.buscase-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
