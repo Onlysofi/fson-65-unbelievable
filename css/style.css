@@ -261,3 +261,46 @@ address {
   align-items: center;
   justify-content: start;
 }
+
+
+/**
+  |============================
+  | Cases
+  |============================
+*/
+
+.cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+}
+
+.cases-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 15px;
+}
+
+.cases-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 34px;
+}
+
+.cases-text {
+  line-height: 1.56;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 39px;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 7px;
+}
