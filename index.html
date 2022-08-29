@@ -1,136 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Finance Ledger</title>
-    <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
 
-    <!-- font famaly -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Ledger</title>
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <!-- normalize -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.0.0/normalize.min.css"
-    />
+  <!-- font famaly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
 
-    <!-- style -->
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.0.0/normalize.min.css" />
 
-  <body>
-    <!-- header -->
-    <header class="header">
+  <!-- style -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <a class="header-logo link" href="./index.html">
+          <img class="header-logo-img" src="./images/logo/logo.svg" alt="sitelogo" />
+          <span class="accent">Finance</span> Ledger
+        </a>
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Home</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">About</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Cases</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Blog</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Main-->
+  <main>
+    <!-- hero -->
+    <section class="hero">
       <div class="container">
-        <nav class="header-nav">
-          <a class="header-logo link" href="./index.html">
-            <img class="header-logo-img" src="./images/logo/logo.svg" alt="sitelogo" />
-            <span class="accent">Finance</span> Ledger
-          </a>
-          <ul class="header-nav-list list">
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="">Home</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="">About</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="">Cases</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="">Blog</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <div class="hero-btn-wrapper">
+          <a class="link hero-btn" href="">
+            <svg class="hero-btn-icon" width="9" height="18">
+              <use href="./images/sprite.svg#icon-arrow-right"></use>
+            </svg>
+            Read More</a>
+        </div>
       </div>
-    </header>
+    </section>
 
-    <!--Main-->
-    <main>
-      <!-- hero -->
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">The Sky Is The Limit</h1>
-          <p class="hero-text">We provide world class financial assistance</p>
-          <div class="hero-btn-wrapper">
-            <a class="link hero-btn" href="">
-              <svg class="hero-btn-icon" width="9" height="18">
-                <use href="./images/sprite.svg#icon-arrow-right"></use>
-              </svg>
-              Read More</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- about -->
-      <section class="about">
-        <div class="container">
-          <h2 class="visually-hidden">About</h2>
-          <ul class="about-list list">
-            <li class="about-item">
-              <h3 class="about-subtitle">Investmant Banking</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-
-            <li class="about-item">
-              <h3 class="about-subtitle">Portfolio Manager</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-
-            <li class="about-item">
-              <h3 class="about-subtitle">Tax & Custudio</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Solution -->
-      <section class="solution">
-        <div class="container">
-          <img src="./images/solution/solution.jpg" alt="team" width="680" height="460" />
-
-          <div class="solution-contant-wrapper">
-            <p class="solution-subtitle">What you are looking for</p>
-            <h2 class="solution-title">We provide bespoke solutions</h2>
-            <p class="solution-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-              itaque rerum temporibus doloribus iste maiores deleniti?
+    <!-- about -->
+    <section class="about">
+      <div class="container">
+        <h2 class="visually-hidden">About</h2>
+        <ul class="about-list list">
+          <li class="about-item">
+            <h3 class="about-subtitle">Investmant Banking</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
             </p>
-            <div class="solution-btn-wrapper">
-              <a class="solution-btn link" href="">Read More</a>
-            </div>
+          </li>
+
+          <li class="about-item">
+            <h3 class="about-subtitle">Portfolio Manager</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
+            </p>
+          </li>
+
+          <li class="about-item">
+            <h3 class="about-subtitle">Tax & Custudio</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Solution -->
+    <section class="solution">
+      <div class="container">
+        <img src="./images/solution/solution.jpg" alt="team" width="680" height="460" />
+
+        <div class="solution-contant-wrapper">
+          <p class="solution-subtitle">What you are looking for</p>
+          <h2 class="solution-title">We provide bespoke solutions</h2>
+          <p class="solution-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+            quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+            itaque rerum temporibus doloribus iste maiores deleniti?
+          </p>
+          <div class="solution-btn-wrapper">
+            <a class="solution-btn link" href="">Read More</a>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team">
+      <div class="container">
+        <p class="team-subtitle">Who we are</p>
+        <h2 class="team-title">Our Professional Team</h2>
+        <p class="team-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+        <ul class="list team-list">
+          <li class="item team-item">
+            <div class="team-thumb">
+              <img src="./images/team/team-1.jpg" alt="company president" width="420" height="280">
+              <ul class="list team-social-overlay">
+                <li class="item">
+                  <a class="team-social-link" href="https://www.facebook.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="35" height="35">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://twitter.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="35" height="35">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://youtube.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="40" height="35">
+                      <use href="./images/sprite.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://www.linkedin.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="31" height="35">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-desc-wrapper">
+              <h3 class="team-name">John Doe</h3>
+              <p class="team-position">President</p>
+            </div>
+          </li>
+          <li class="item team-item">
+            <div class="team-thumb">
+              <img src="./images/team/team-2.jpg" alt="company vice-president" width="420" height="280">
+              <ul class="list team-social">
+                <li class="item">
+                  <a class="team-social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                    target="_blank" rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="35" height="35">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://twitter.com/" target="_blank"
+                    rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="35" height="35">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://youtube.com/" target="_blank"
+                    rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="40" height="35">
+                      <use href="./images/sprite.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://www.linkedin.com/" target="_blank"
+                    rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="31" height="35">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-desc-wrapper">
+              <h3 class="team-name">Jane Doe</h3>
+              <p class="team-position">Vice President</p>
+            </div>
+          </li>
+          <li class="item team-item">
+            <div class="team-thumb">
+              <img src="./images/team/team-3.jpg" alt="company marketing head" width="420" height="280">
+              <ul class="list team-social">
+                <li class="item">
+                  <a class="team-social-link" href="https://www.facebook.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="35" height="35">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://twitter.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="35" height="35">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://youtube.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="40" height="35">
+                      <use href="./images/sprite.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item"><a class="team-social-link" href="https://www.linkedin.com/" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="team-social-icon" width="31" height="35">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-desc-wrapper">
+              <h3 class="team-name">Steve Smith</h3>
+              <p class="team-position">Marketing Head</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</body>
+
 </html>
