@@ -261,3 +261,72 @@ address {
   align-items: center;
   justify-content: start;
 }
+
+/**
+  |============================
+  | callback
+  |============================
+*/
+
+
+.callback .container {
+  display: flex;
+  padding: 0;
+}
+
+.callback-content-wrapper {
+  background-color: #F4F4F4;
+  padding: 78px 30px 82px 30px;
+  width: 100%;
+}
+
+.callback-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--primary-text-color);
+  margin-bottom: 34px;
+}
+
+.callback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.callback-label.name {
+  margin-bottom: 36px;
+}
+
+.callback-label-input {
+
+  width: 100%;
+  background: var(--secondary-text-color);
+  border: 1px solid #F5F5F5;
+  height: 40px;
+  padding: 6px 6px 5px 5px;
+}
+
+.callback-label-input::placeholder {
+  line-height: 1.56;
+  color: #808080;
+}
+
+.callback-label-input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.callback-label.email {
+  margin-bottom: 60px;
+}
+
+.callback-btn {
+  background: var(--accent-color);
+  border-radius: 5px;
+  font-family: 'Open Sans';
+  line-height: 1.39;
+  text-align: center;
+  color: var(--secondary-text-color);
+  padding: 7px 0 10px 0;
+  border: 0;
+}
