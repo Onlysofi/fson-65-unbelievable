@@ -1,5 +1,6 @@
 :root {
   --accent-color: #28a745;
+  --secondary-color: #0284d0;
   --primary-text-color: #333333;
   --secondary-text-color: #ffffff;
 }
@@ -262,13 +263,99 @@ address {
   justify-content: start;
 }
 
+/* Business Cases */
 
-/**
-  |============================
-  | Team
-  |============================
-*/
+.buscase .container {
+  padding: 50px 28px 47px 28px;
+}
 
+.busecase-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.buscase-uppertitle {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--primary-text-color);
+  margin: 0 auto 15px;
+}
+
+.buscase-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--primary-text-color);
+  margin: 0 auto 34px;
+}
+
+.buscase-subtitle {
+  line-height: 1.56;
+  color: var(--primary-text-color);
+  margin: 0 auto 39px;
+}
+
+.buscase-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Post */
+
+.post .container {
+  display: flex;
+  padding: 0;
+}
+
+.post-contant-wrapper {
+  background-color: var(--secondary-color);
+  padding: 84px 44px 84px 30px;
+}
+
+.post-subtitle {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+}
+
+.post-title {
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--secondary-text-color);
+}
+
+.post-text {
+  margin-bottom: 17px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+.post-btn {
+  background-color: transparent;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 5px;
+
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+  min-width: 167px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/* team */
 .team .container {
   padding: 49px 30px 59px 31px;
 }
@@ -336,7 +423,6 @@ address {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 
   display: flex;
   align-items: center;
