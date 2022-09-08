@@ -557,3 +557,34 @@ address {
   padding: 7px 0 10px 0;
   border: 0;
 }
+
+/* footer */
+.footer {
+  background-color: var(--primary-text-color);
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  transform: scale(1);
+  transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.footer-item:focus .footer-icon,
+.footer-item:hover .footer-icon {
+  transform: scale(1.5);
+}
+
+.footer-text {
+  line-height: 1.56;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
