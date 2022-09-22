@@ -1,0 +1,25 @@
+.about {
+  padding: 122px 0 19px 0;
+
+  & .container {
+    padding: 0 66px;
+  }
+
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 71px;
+  }
+
+  &-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    text-align: center;
+  }
+
+  &-text {
+    line-height: 1.56;
+    text-align: center;
+  }
+}
