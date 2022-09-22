@@ -514,6 +514,7 @@ address {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
+  margin-bottom: 34px;
 }
 
 .callback-form {
@@ -523,6 +524,15 @@ address {
 
 .callback-label.name {
   margin-bottom: 36px;
+}
+
+.label-name {
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  color: #757575;
+
+  margin-bottom: 4px;
+  display: block;
 }
 
 .callback-label-input {
@@ -538,9 +548,9 @@ address {
   color: #808080;
 }
 
-.callback-label-input:focus {
+.callback-label-input:focus-within {
   outline: 0;
-  outline-offset: 0;
+  border: 1px solid var(--accent-color);
 }
 
 .callback-label.email {
