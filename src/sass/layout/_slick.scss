@@ -1,0 +1,27 @@
+.slick {
+  padding: 94px 0;
+  background-color: tomato;
+}
+
+.slick-title {
+  text-align: center;
+  color: tomato;
+}
+
+.slick-list {
+  padding: 0;
+  margin: 0;
+}
+.slick-top-title {
+  padding: 40px;
+  background-color: teal;
+  border-radius: 6px;
+}
+
+.slick-item {
+  height: 400px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+}

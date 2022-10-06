@@ -6,3 +6,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--secondary-text-color);
 }
+
+.header-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
