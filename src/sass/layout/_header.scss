@@ -1,5 +1,7 @@
 .header {
-  background-color: #2f303a;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 
   & .container {
     padding-left: 50px;

@@ -36,3 +36,10 @@
     margin: 0 auto 15px;
   }
 }
+
+.sl-wrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.sl-wrapper .sl-image .sl-caption {
+  background-color: red;
+}
